@@ -1,0 +1,10 @@
+./tmp_files/tmp_1655788629.5.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./tmp_files/tmp_1655788629.5.cpp:11:13: error: ‘x’ was not declared in this scope
+         if (x < 0 || (x % 10 == 0 && x != 0)) {
+             ^
+./tmp_files/tmp_1655788629.5.cpp:16:16: error: ‘x’ was not declared in this scope
+         while (x > revertedNumber) {
+                ^
+./tmp_files/tmp_1655788629.5.cpp:20:16: error: ‘x’ was not declared in this scope
+         return x == revertedNumber || x == revertedNumber / 10;
+                ^

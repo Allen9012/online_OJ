@@ -1,0 +1,16 @@
+./tmp_files/tmp_1655788535.3.cpp: In function ‘void Test1()’:
+./tmp_files/tmp_1655788535.3.cpp:56:41: error: no matching function for call to ‘Solution::isPalindrome(int)’
+   bool ret = Solution().isPalindrome(121);
+                                         ^
+./tmp_files/tmp_1655788535.3.cpp:10:10: note: candidate: bool Solution::isPalindrome(std::string)
+     bool isPalindrome(string s) {
+          ^~~~~~~~~~~~
+./tmp_files/tmp_1655788535.3.cpp:10:10: note:   no known conversion for argument 1 from ‘int’ to ‘std::string {aka std::basic_string<char>}’
+./tmp_files/tmp_1655788535.3.cpp: In function ‘void Test2()’:
+./tmp_files/tmp_1655788535.3.cpp:65:41: error: no matching function for call to ‘Solution::isPalindrome(int)’
+   bool ret = Solution().isPalindrome(-10);
+                                         ^
+./tmp_files/tmp_1655788535.3.cpp:10:10: note: candidate: bool Solution::isPalindrome(std::string)
+     bool isPalindrome(string s) {
+          ^~~~~~~~~~~~
+./tmp_files/tmp_1655788535.3.cpp:10:10: note:   no known conversion for argument 1 from ‘int’ to ‘std::string {aka std::basic_string<char>}’

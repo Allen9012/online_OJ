@@ -1,0 +1,12 @@
+./tmp_files/tmp_1655788491.1.cpp:42:6: error: expected ‘;’ after class definition
+     }
+      ^
+      ;
+./tmp_files/tmp_1655788491.1.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./tmp_files/tmp_1655788491.1.cpp:11:36: error: a function-definition is not allowed here before ‘{’ token
+        bool isPalindrome(string s) {
+                                    ^
+./tmp_files/tmp_1655788491.1.cpp: At global scope:
+./tmp_files/tmp_1655788491.1.cpp:43:1: error: expected declaration before ‘}’ token
+ };
+ ^
